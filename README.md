@@ -231,9 +231,9 @@ Hasil Screenshoot:
 
 FULL screeenshoot Lab6Web
 
-![alt text](<Latihan/Screenshot 2026-10-26 183131.png>)
+![alt text](<Latihan/Screenshot 2026-10-26 185025.png>)
 
-![alt text](<Latihan/Screenshot 2026-10-26 183507.png>)
+![alt text](<Latihan/Screenshot 2026-10-26 185253.png>)
 
 ## Jawaban Pertanyaan Evaluasi
 
