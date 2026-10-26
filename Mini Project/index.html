@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Workshop</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Pendaftaran Workshop</h1>
+        <p>Silakan isi formulir untuk mendaftar workshop.</p>
+
+        <form id="formWorkshop" novalidate>
+            <label for="nama">Nama lengkap</label>
+            <input type="text" id="nama" maxlength="50"
+                   placeholder="Masukkan nama lengkap" autocomplete="name">
+            <small class="error-teks" id="errNama" aria-live="polite"></small>
+            <small id="hitungNama">0/50 karakter</small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email"
+                   placeholder="contoh@email.com" autocomplete="email">
+            <small class="error-teks" id="errEmail" aria-live="polite"></small>
+
+            <label for="sesi">Pilih sesi workshop</label>
+            <select id="sesi">
+                <option value="">-- Pilih sesi --</option>
+                <option value="HTML dan CSS">HTML dan CSS</option>
+                <option value="JavaScript Dasar">JavaScript Dasar</option>
+                <option value="Web Design">Web Design</option>
+            </select>
+            <small class="error-teks" id="errSesi" aria-live="polite"></small>
+
+            <p id="ringkasanSesi">Sesi belum dipilih.</p>
+
+            <div class="tombol">
+                <button type="submit">Daftar</button>
+                <button type="reset" id="tombolReset">Reset</button>
+            </div>
+        </form>
+
+        <p id="pesan" aria-live="polite"></p>
+    </main>
+</body>
+</html>

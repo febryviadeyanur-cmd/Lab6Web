@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 5 - Validasi Formulir</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+
+    <form id="formPendaftaran" novalidate>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="contoh@email.com">
+
+        <label for="usia">Usia:</label>
+        <input type="number" id="usia" placeholder="Masukkan usia">
+
+        <button type="submit">Daftar</button>
+    </form>
+
+    <p id="pesanForm" aria-live="polite"></p>
+</body>
+</html>
